@@ -1,0 +1,31 @@
+.user-container{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-right:1px solid #cccccc;
+}
+.user-container img{
+    padding-right: 10px;
+    width: 250px;
+    height: 250px;
+}
+.user-container .user-info{
+    font-weight: 400;
+    color: blue;
+    text-align: left;
+    padding-right: 10px;
+}
+.user-container small{
+    display:block;
+    margin-bottom: 20px;
+}
+.user-container .btn{
+    margin:10px 10px 10px 0;
+    padding:10px;
+    background:yellowgreen;
+    cursor: pointer;
+    border-radius: 5px;
+}
